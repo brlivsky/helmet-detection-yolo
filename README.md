@@ -19,7 +19,7 @@ Users are requested to go thoroughly through the original [repo](https://github.
 2. Downloaded the dataset
 3. Converted the videos to image frames (code given)
 4. Annotated around 1000+ images manually using LabelImg, the more the merrier
-5. Uploaded the dataset (images + annotation file) to the Drive associated with Colab (Sorry, I don't have labeled images in the drive, though I have it in my PC)
+5. Uploaded the dataset (images + annotation file) to the Drive associated with Colab (Sorry, I don't have labeled images in the drive, though I have it on my PC)
 6. Used pretrained weights of COCO dataset to initialize the model (refer orginal repo)
 7. Trained on the new dataset uploaded
 8. Downloaded the weights and ran detection on PC
@@ -41,6 +41,5 @@ For those who would like to extend the project, I would recommend adding the fol
 3. A web interface to identify the traffic rule violatores and manage the system
 
 ## Note and Disclaimer
-* I am a Master's student at MNNIT Allahabad and is in no way associated with IIT H. 
-* This project was done as part of my Bachelor's Thesis in 2019 and is not actively maintained. (Feel free to can contact me though)
-* 95% of the time was spent on debugging.
+* I am currently (25-Aug-21) a Master's student at MNNIT Allahabad and is in no way affiliated with IIT H. 
+* This project was done as part of my Bachelor's Thesis in 2019 and is not actively maintained (feel free to can contact me though).
