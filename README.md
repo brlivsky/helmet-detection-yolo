@@ -11,19 +11,19 @@ Knowledge in one or more of the following will be helpful.
 4. Google Colab
 
 ## Dataset
-Dataset can be requested from this [link](https://www.iith.ac.in/~ckm/vigil/resources.html). Do provide a well written reason for the request. The video datset has to be converted to images and labeled manually. I've used [LabelImg](https://github.com/tzutalin/labelImg) to annotate the classes, the classnames being Helmet and Bike. 
+Dataset can be requested from this [link](https://www.iith.ac.in/~ckm/vigil/resources.html). Do provide a well written reason for the request. The video datset has to be converted to images and labeled manually. We've used [LabelImg](https://github.com/tzutalin/labelImg) to annotate the classes, the classnames being Helmet and Bike. 
 
 ## Implementation
-Users are requested to go thoroughly through the original [repo](https://github.com/ultralytics/yolov3). Here is a walkthrough of the steps I followed.
+Users are requested to go thoroughly through the original [repo](https://github.com/ultralytics/yolov3). Here is a walkthrough of the steps we've followed.
 1. Set up the environment in Google Colab
 2. Downloaded the dataset
 3. Converted the videos to image frames (code given)
 4. Annotated around 1000+ images manually using LabelImg, the more the merrier
-5. Uploaded the dataset (images + annotation file) to the Drive associated with Colab (Sorry, I don't have labeled images in the drive, though I have it on my PC)
+5. Uploaded the dataset (images + annotation file) to the Drive associated with Colab
 6. Used pretrained weights of COCO dataset to initialize the model (refer orginal repo)
 7. Trained on the new dataset uploaded
 8. Downloaded the weights and ran detection on PC
-9. Changed modified detect.py to enable webcam
+9. Modified detect.py to enable webcam
 
 ## Results
 An image after detection of helmet and motorbike.
@@ -35,11 +35,10 @@ Parameters on how good the model is in identifying the objects trained.
 ![download](https://user-images.githubusercontent.com/6930097/130744000-e60129bf-88d1-455c-9095-1a0d4c908d55.png)
 
 ## Future Work
-For those who would like to extend the project, I would recommend adding the following features
+For those who would like to extend the project, we would recommend adding the following features
 1. Number Plate Detection using OCR
 2. Seat Belt Detection
 3. A web interface to identify the traffic rule violatores and manage the system
 
 ## Note and Disclaimer
-* I am currently (25-Aug-21) a Master's student at MNNIT Allahabad and is in no way affiliated with IIT H. 
-* This project was done as part of my Bachelor's Thesis in 2019 and is not actively maintained (feel free to can contact me though).
+* This project was done as part of our Bachelor's Thesis in 2019 and is not actively maintained.
